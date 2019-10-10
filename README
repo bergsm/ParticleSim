@@ -1,1 +1,5 @@
-README for ParticleSim
+Particle Simulation using OpenCL and OpenGL frameworks. Initially a class project for CS475, Introduction to Parallel Programming.
+
+The simulation initializes a set of particles above two round spheres. Once the simulation starts the partciles behave as if under the influence of gravity. If the particles "bounce" off of the spheres, they change color to reflect the color of the sphere they bounced off of.
+
+The program also records peformance as a measure of particle calculations per second and can be used to determine utilization of GPU.
